@@ -1,0 +1,27 @@
+{
+  "name": "21spring",
+  "version": "0.0.1",
+  "description": "displays sense-hat sensors on web page using socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tategibbons/21spring.git"
+  },
+  "keywords": [
+    "sense-hat"
+  ],
+  "author": "Tate Gibbons",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tategibbons/21spring/issues"
+  },
+  "homepage": "https://github.com/tategibbons/21spring#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "nodeimu": "^2.1.9",
+    "socket.io": "^1.7.3"
+  }
+}
